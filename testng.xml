@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="6" name="API Tests">
+	<classes>
+		<class name="testcases.GetUsersTest" />
+		<class name="testcases.CreateUserTest" />
+		<class name="testcases.UpdateUserTest" />
+		<class name="testcases.DeleteUserTest" />
+		<class name="testcases.LoginTest" />
+		<class name="testcases.RegisterTest" />
+		
+	</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->
